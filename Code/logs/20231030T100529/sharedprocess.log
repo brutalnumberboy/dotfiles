@@ -1,8 +1,0 @@
-2023-10-30 10:05:31.675 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc /home/m/.vscode/extensions/catppuccin.catppuccin-vsc-3.4.0
-2023-10-30 10:05:31.776 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/catppuccin.catppuccin-vsc-3.4.0.-33642854.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/catppuccin.catppuccin-vsc-3.4.0.-33642854.vsctmp'
-    at s.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
-    at i (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
-    at t.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
-    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
-    at async w.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
-    at async Q.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)
