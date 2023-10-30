@@ -1,0 +1,107 @@
+@import "macchiato.css";
+* {
+	/* reference the color by using @color-name */
+	font-family: Blex Mono Nerd Regular;
+	color: @text;
+}
+
+window#waybar {
+	/* you can also GTK3 CSS functions! */
+	background-color:  transparent; /*shade(@base, 0.9); */
+	/* border: 2px solid alpha(@crust, 0.3); */
+}
+
+#tray,
+#clock,
+#battery,
+#window,
+#memory,
+#backlight,
+#workspaces,
+#network,
+#pulseaudio,
+#language,
+#idle_inhibitor,
+#custom-media{
+	padding: 0 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+	font-weight: bold;
+	border-radius: 1rem;
+}
+
+#workspaces button {
+    border-bottom: 3px solid transparent;
+    color: #dfdfdf;
+}
+
+#workspaces button.active {
+    border-bottom: 1px solid @opaque0;
+}
+
+#workspaces button.urgent {
+    border-color: #c9545d;
+    color: #c9545d;
+}
+
+#language{
+	color: @mauve;
+}
+
+#battery {
+	color: @green;
+}
+
+#memory {
+	color: @yellow;
+}
+
+#backlight {
+	color: @rosewater;
+}
+
+#waybar.empty #window{
+	background: none;
+}
+
+#clock {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: @sky;
+}
+
+
+@keyframes blink {
+	to {
+		background-color: #ffffff;
+		color: #000000;
+	}
+}
+
+label:focus {
+	background-color: shade(@base, 0.9);
+}
+
+#network {
+	color: @peach;
+}
+
+#network.disconnected {
+	background-color: #f53c3c;
+}
+
+#pulseaudio {
+	color: @teal;
+}
+
+#custom-media {
+	color: @teal;
+}
+
+#pulseaudio.muted {
+	background-color: #90b1b1;
+	color: #2a5c45;
+}
+
+#workspaces{
+	font-size:16px;
+}

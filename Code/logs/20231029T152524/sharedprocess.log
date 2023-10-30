@@ -1,0 +1,42 @@
+2023-10-29 15:25:33.831 [info] Getting Manifest... redhat.vscode-xml
+2023-10-29 15:25:33.843 [info] Installing extension: redhat.vscode-xml
+2023-10-29 15:25:36.291 [warning] Extension signature verification failed with error 'UnknownError': redhat.vscode-xml
+2023-10-29 15:25:37.022 [info] Extracted extension to file:///home/m/.vscode/extensions/redhat.vscode-xml-0.26.1-linux-x64: redhat.vscode-xml
+2023-10-29 15:25:37.037 [info] Renamed to /home/m/.vscode/extensions/redhat.vscode-xml-0.26.1-linux-x64
+2023-10-29 15:25:37.040 [info] Extracting extension completed. redhat.vscode-xml
+2023-10-29 15:25:37.067 [info] Extension installed successfully: redhat.vscode-xml
+2023-10-29 15:25:37.129 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at s.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)
+2023-10-29 15:25:45.819 [info] Getting Manifest... davidanson.vscode-markdownlint
+2023-10-29 15:25:45.828 [info] Installing extension: davidanson.vscode-markdownlint
+2023-10-29 15:25:46.292 [warning] Extension signature verification failed with error 'UnknownError': davidanson.vscode-markdownlint
+2023-10-29 15:25:46.324 [info] Extracted extension to file:///home/m/.vscode/extensions/davidanson.vscode-markdownlint-0.52.0: davidanson.vscode-markdownlint
+2023-10-29 15:25:46.331 [info] Renamed to /home/m/.vscode/extensions/davidanson.vscode-markdownlint-0.52.0
+2023-10-29 15:25:46.333 [info] Extracting extension completed. davidanson.vscode-markdownlint
+2023-10-29 15:25:46.346 [info] Extension installed successfully: davidanson.vscode-markdownlint
+2023-10-29 15:25:46.419 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at s.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)
+2023-10-29 15:25:47.467 [info] Getting Manifest... yzhang.markdown-all-in-one
+2023-10-29 15:25:47.476 [info] Installing extension: yzhang.markdown-all-in-one
+2023-10-29 15:25:47.946 [warning] Extension signature verification failed with error 'UnknownError': yzhang.markdown-all-in-one
+2023-10-29 15:25:48.005 [info] Extracted extension to file:///home/m/.vscode/extensions/yzhang.markdown-all-in-one-3.5.1: yzhang.markdown-all-in-one
+2023-10-29 15:25:48.012 [info] Renamed to /home/m/.vscode/extensions/yzhang.markdown-all-in-one-3.5.1
+2023-10-29 15:25:48.016 [info] Extracting extension completed. yzhang.markdown-all-in-one
+2023-10-29 15:25:48.028 [info] Extension installed successfully: yzhang.markdown-all-in-one
+2023-10-29 15:25:48.099 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/m/.vscode/extensions/extensions.json.vsctmp'
+    at s.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30209)
+    at i (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30329)
+    at t.fb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:35755)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28201)
+    at async w.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15579)
+    at async Q.tb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9514)

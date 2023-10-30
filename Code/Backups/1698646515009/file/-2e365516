@@ -1,0 +1,26 @@
+file:///run/media/m/32GB/codes/racket/practice.rkt {"mtime":1697385080000,"ctime":1698328280760,"size":532,"etag":"3bbh7kk30h5","orphaned":false,"typeId":""}
+#lang racket
+(define (myappend lst1 lst2)
+  (cond
+    [(empty? lst1) lst2]
+    [else
+     (define head(car lst1))
+     (define tail(cdr lst1))
+     (define tail_value(myappend tail lst2))
+     (cons head tail_value)]
+    
+  ))
+
+(writeln (myappend (list 1 2 3) (list 4 5 6)))
+
+
+(define (myappend2 lst1 lst2)
+  (cond
+    [(empty? lst2) lst1]
+    [else
+     (define head(car lst2))
+     (define tail(cdr lst2))
+     (define tail_value(myappend2 lst1 tail))
+     (cons head tail_value)]))
+
+(writeln (myappend (list 1 2 3) (list 4 5 6)))
