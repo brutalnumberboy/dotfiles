@@ -7,34 +7,73 @@
 
 window#waybar {
 	/* you can also GTK3 CSS functions! */
-	background-color:  transparent; /*shade(@base, 0.9); */
-	/* border: 2px solid alpha(@crust, 0.3); */
+	/*shade(@base, 0.9); */
+	background-color: transparent;
 }
 
 #tray,
 #clock,
 #battery,
-#window,
 #memory,
 #backlight,
-#workspaces,
 #network,
 #pulseaudio,
 #language,
-#idle_inhibitor,
-#custom-media{
+#idle_inhibitor{
+	margin-top: 0.5em;
 	padding: 0 10px;
 	background-color: rgba(0, 0, 0, 0.8);
 	font-weight: bold;
+}
+
+#tray{
+	margin-right: 0.5em;
 	border-radius: 1rem;
 }
 
+#clock {
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	border-radius: 1rem;
+}
+
+#pulseaudio{
+	border-top-left-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+
+}
+#battery{
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+
+#window,
+#custom-media{
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 0 10px;
+	font-weight: bold;
+	margin-top: 0.5em;
+	border-radius: 1rem;
+}
+#window {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
 #workspaces button {
-    border-bottom: 3px solid transparent;
-    color: #dfdfdf;
+	color: #dfdfdf;
+}
+
+#workspaces{
+	border-radius:1rem;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	padding: 0 10px;
 }
 
 #workspaces button.active {
+	border-radius: 0.23rem;
     border-bottom: 1px solid @opaque0;
 }
 
@@ -42,6 +81,8 @@ window#waybar {
     border-color: #c9545d;
     color: #c9545d;
 }
+
+
 
 #language{
 	color: @mauve;
@@ -64,8 +105,6 @@ window#waybar {
 }
 
 #clock {
-	margin-left: 10px;
-	margin-right: 10px;
 	color: @sky;
 }
 
@@ -94,13 +133,10 @@ label:focus {
 }
 
 #custom-media {
+	margin-left: 0.5em;
 	color: @teal;
 }
 
-#pulseaudio.muted {
-	background-color: #90b1b1;
-	color: #2a5c45;
-}
 
 #workspaces{
 	font-size:16px;
